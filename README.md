@@ -19,7 +19,6 @@ I totally messed it up, and don't know what im writing. Although it finally get 
 ============
 
 PythonQuine
-
 ============
 Author: NoahDragon Date: 2013-Nov-20
 
@@ -36,7 +35,6 @@ Shoter Quine program shows better comperhensive of programming language. In my o
 =============
 
 SimpleJavaTCPConnection
-
 =============
 
 Author: NoahDragon
