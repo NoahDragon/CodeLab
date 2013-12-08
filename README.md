@@ -5,7 +5,7 @@ This is my lab of consisting full of small programs.
 
 ============
 
-HanoiProgram
+HanoiProgram (hanoi.py)
 ============
 
 Author: Abner.NoahDragon
@@ -17,7 +17,7 @@ I totally messed it up, and don't know what im writing. Although it finally get 
 
 ============
 
-PythonQuine
+PythonQuine (Quine.py)
 ============
 Author: NoahDragon Date: 2013-Nov-20
 
@@ -33,7 +33,7 @@ Shoter Quine program shows better comperhensive of programming language. In my o
 
 =============
 
-SimpleJavaTCPConnection
+SimpleJavaTCPConnection 
 =============
 
 Author: NoahDragon
