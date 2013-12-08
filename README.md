@@ -7,6 +7,8 @@ This is my lab of consisting full of small programs.
 
 HanoiProgram
 
+============
+
 Author: Abner.NoahDragon
 Date: 2013-Nov-22
 
@@ -17,6 +19,8 @@ I totally messed it up, and don't know what im writing. Although it finally get 
 ============
 
 PythonQuine
+
+============
 Author: NoahDragon Date: 2013-Nov-20
 
 A simple self-replicating program via Python.
@@ -32,6 +36,8 @@ Shoter Quine program shows better comperhensive of programming language. In my o
 =============
 
 SimpleJavaTCPConnection
+
+=============
 
 Author: NoahDragon
 Date: 2013-Nov-18
