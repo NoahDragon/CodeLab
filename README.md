@@ -8,7 +8,6 @@ This is my lab of consisting full of small programs.
 HanoiProgram (hanoi.py)
 ============
 
-Author: Abner.NoahDragon
 Date: 2013-Nov-22
 
 This is a hanoi program, which I tried to remember the Recursion logic in programming.
@@ -19,7 +18,7 @@ I totally messed it up, and don't know what im writing. Although it finally get 
 
 PythonQuine (Quine.py)
 ============
-Author: NoahDragon Date: 2013-Nov-20
+Date: 2013-Nov-20
 
 A simple self-replicating program via Python.
 
@@ -36,7 +35,6 @@ Shoter Quine program shows better comperhensive of programming language. In my o
 SimpleJavaTCPConnection 
 =============
 
-Author: NoahDragon
 Date: 2013-Nov-18
 
 
@@ -55,11 +53,32 @@ You will see the server message prompt on client side.
 
 Back Propagation for XOR training (BP_XOR.cpp)
 ============
-Author: Abner
+
 Date: 2013-Dec-10
 
 This is an assignment code back to 2011 for course Neural Network Algorithm.
 
 Training the BP algorithm to learn XOR operation. 
+
+===============
+
+Prime Number 
+===============
+
+Date: 2013-Dec-10
+
+Wrote in C programming language
+Compiled by Dev-C/C++ 4.9 & GNU C Compiler
+Wrote for: CIS 6650, UoG
+
+This program is focused on calculating the 990,000th prime number and printing 
+this prime number on screen.
+
+Reference: [1] <C++ Programming Language>,Qian, N.(2005) 
+
+Date: 2011.01.30
+
+==================
+
 
 
