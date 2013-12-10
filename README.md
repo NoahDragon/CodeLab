@@ -74,7 +74,7 @@ Wrote for: CIS 6650, UoG
 This program is focused on calculating the 990,000th prime number and printing 
 this prime number on screen.
 
-Reference: [1] <C++ Programming Language>,Qian, N.(2005) 
+Reference: [1] \<C++ Programming Language\>,Qian, N.(2005) 
 
 Date: 2011.01.30
 
