@@ -91,5 +91,10 @@ Date: Mar 26th, 2011
 
 ===================
 
+Self-Organizing Map (SOM)
+==================
 
+Date: 2013-Dec-10
+
+It is also an assignment for Neural Network Course, implementing the Self-Organizing Map network.
 
