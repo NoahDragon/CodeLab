@@ -80,5 +80,16 @@ Date: 2011.01.30
 
 ==================
 
+FuzzyART Neural Network
+==================
+
+Date: 2013-Dec-10
+
+Description: this is a work for implement fuzzyART network. It is also an assignment code for Neural Network Course.
+Author: Abner
+Date: Mar 26th, 2011
+
+===================
+
 
 
