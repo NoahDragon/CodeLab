@@ -51,3 +51,15 @@ and run 'java Server' first, then open another terminal and run 'java Client'.
 
 You will see the server message prompt on client side.
 
+============
+
+Back Propagation for XOR training (BP_XOR.cpp)
+============
+Author: Abner
+Date: 2013-Dec-10
+
+This is an assignment code back to 2011 for course Neural Network Algorithm.
+
+Training the BP algorithm to learn XOR operation. 
+
+
