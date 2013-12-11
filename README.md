@@ -45,6 +45,7 @@ The Server.java creates a infinite loop for listening connection request from cl
 The Client.java tried to connect the server, and print out the message.
 
 Just run to compile: javac *.java
+
 and run 'java Server' first, then open another terminal and run 'java Client'.
 
 You will see the server message prompt on client side.
@@ -59,7 +60,9 @@ Date: 2013-Dec-10
 This is an assignment code back to 2011 for course Neural Network Algorithm.
 
 Training the BP algorithm to learn XOR operation. 
+
 Training the BP algorithm to learn Iris flower data.
+
 Training the BP algorithm to learn 5-bit symmetry.
 
 ===============
@@ -69,12 +72,11 @@ Prime Number
 
 Date: 2013-Dec-10
 
-Wrote in C programming language
-Compiled by Dev-C/C++ 4.9 & GNU C Compiler
+Wrote in C programming language Compiled by Dev-C/C++ 4.9 & GNU C Compiler
+
 Wrote for: CIS 6650, UoG
 
-This program is focused on calculating the 990,000th prime number and printing 
-this prime number on screen.
+This program is focused on calculating the 990,000th prime number and printing this prime number on screen.
 
 Reference: [1] \<C++ Programming Language\>,Qian, N.(2005) 
 
@@ -88,7 +90,7 @@ FuzzyART Neural Network
 Date: 2013-Dec-10
 
 Description: this is a work for implement fuzzyART network. It is also an assignment code for Neural Network Course.
-Author: Abner
+
 Date: Mar 26th, 2011
 
 ===================
