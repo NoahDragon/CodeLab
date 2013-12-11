@@ -104,3 +104,14 @@ Date: 2013-Dec-10
 
 It is also an assignment for Neural Network Course, implementing the Self-Organizing Map network.
 
+===================
+
+Simple Information Retrival Syster (IRS)
+==================
+
+Date: 2013-Dec-11
+
+It is an assignment for Natural Language Processing course, which created a simple IR. More details could be find from the ReadMe file inside the folder.
+
+
+
