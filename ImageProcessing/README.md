@@ -7,8 +7,8 @@ Both codes are writen for CIS*4720 Image Processing course.
 
 Haze Removal are based on:
 
-  K. He, J. Sun, and X. Tang. "Single Image Haze Removal Using Dark Channel 
-  Prior". In CVPR, IEEE, pp. 1956-1963(2009).
+	K. He, J. Sun, and X. Tang. "Single Image Haze Removal Using Dark Channel 
+	Prior". In CVPR, IEEE, pp. 1956-1963(2009).
 
 Which the author provide the matlab source code. I just translate it to Python.
 
