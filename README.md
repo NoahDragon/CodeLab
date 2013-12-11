@@ -51,7 +51,7 @@ You will see the server message prompt on client side.
 
 ============
 
-Back Propagation for XOR training (BP_XOR.cpp)
+Back Propagation (BP)
 ============
 
 Date: 2013-Dec-10
@@ -59,6 +59,8 @@ Date: 2013-Dec-10
 This is an assignment code back to 2011 for course Neural Network Algorithm.
 
 Training the BP algorithm to learn XOR operation. 
+Training the BP algorithm to learn Iris flower data.
+Training the BP algorithm to learn 5-bit symmetry.
 
 ===============
 
