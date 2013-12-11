@@ -22,4 +22,4 @@ Image Contrast Enhancement has two methods, which are implementing two papers re
 	and Its Application for Image Contrast Enhancement". IEEE Trans. on IMAGE 
 	PROCESSING, VOL. 18, NO. 9, pp. 1921-1935(2009).
 
-They didn't provide any source code, I implemented them by my own comprehension of their works.
+They didn't provide any source codes, I implemented them by my own comprehension of their works.
