@@ -37,11 +37,20 @@ Summary
 ========================
 
 In  GCEHistMod.py file (implementing the algorithm described in the paper adaptColourHE.pdf):
-gcehistmod ( img, enhancement, threshold, black, white, a, nbr_bins=256 )
-Prameter: 8-bit gray image (array); enhancement level; threshold for two lagged difference; b&w stretch parameters black, white, a.
-Return: modified image(array)
+
+ gcehistmod ( img, enhancement, threshold, black, white, a, nbr_bins=256 )
+
+Prameter: 
+
+ 8-bit gray image (array); enhancement level; threshold for two lagged difference; b&w stretch parameters black, white, a.
+ 
+Return:
+
+ modified image(array)
 
 In ColorImageHE.py file  (implementing the algorithms described in the paper Bassiou07a.pdf):
-hsihe_i ( img, ibins=256, sbins=256 ) : Method III in the paper
-hsihe_si ( img, ibins=256, sbins=256 ): Method IV in the paper
+
+ hsihe_i ( img, ibins=256, sbins=256 ) : Method III in the paper
+ hsihe_si ( img, ibins=256, sbins=256 ): Method IV in the paper
+ 
 However, this method seems work well on certain pictures. In the attachments BadPerformance.jpg and WellPerformed.jpg show the bad and good application respectively. I don't know what caused this problem.
