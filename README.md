@@ -82,6 +82,8 @@ Reference: [1] \<C++ Programming Language\>,Qian, N.(2005)
 
 Date: 2011.01.30
 
+Related code: sqrtEfficiency.c
+
 ==================
 
 FuzzyART Neural Network
