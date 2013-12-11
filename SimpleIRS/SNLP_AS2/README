@@ -1,0 +1,45 @@
+/**************************************************************
+Author: HaochenZhou
+Date: 2011-10-28
+Describtion: Assignment 2 for SNLP course(CIS6650)
+**************************************************************/
+
+In this folder, there are three sub folders. Each of them implements
+a function of Information Retrieval System.
+
+In GenerateQueries&Doc folder, using commond 'make' to generate the
+executable file 'scanner'. Using commond './scanner < queries.txt > queries.out' to generate the 'queries.out' file, and using commond 
+'./scanner < documents.txt > documents.out' can produce the 
+'documents.out' file. This part is pretty similar to assignment 1 for
+SNLP.
+
+In Offline folder, using commond 'make' to generate the executable
+file 'offline'. Please make sure the 'documents.out' is in the same
+folder, then execute './offline'. This will generate three outputs:
+dictionary.txt, docids.txt, posting.txt. (These three have already
+in the Online folder)
+
+In Online folder, using commond 'make' to generate the executable file
+'IRS'. This time please make sure the 'dictionary.txt', 'docids.txt',
+and 'posting.txt' in the same folder, and run './IRS'. 
+
+The process of creating this Information Retrieval System is showed
+below:
+1. Make 'scanner' generate the 'documents.out'.
+2. Make 'offline' to process 'documents.out', and output 'dictionary.txt'
+ 'docids.txt', and 'posting.txt'.
+3. Make 'IRS' to run system.
+
+********************************************************************
+Tought on this assignment
+********************************************************************
+This is really a challenging assignment, and I found out I learned
+more through this assignment. The whole process of Information Retrieval
+System is implemented in this one assignment. The time when I successfully
+ran the system, I feel great achievability for devoting time and energy on
+it.
+
+However, this system I made is still rough. It could not show details very well, and the similarity function I just chose the inner product which is
+the simpliest. Moreover, the proccess of scanner can not deal the 
+apostrophized word properly, especially when some words quoted with single
+quotation mark.
