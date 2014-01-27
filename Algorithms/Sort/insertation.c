@@ -2,7 +2,7 @@
 /*
     It's the Insertation sort algorithm
     From <Introduction to Algorithms> 3rd ed. T.H. Cormen, C.E. Leiserson,
-        R.L. Rivest, and C. Stein. 2009.
+        R.L. Rivest, and C. Stein. 2009. p. 18
 */
 
 void main(){
