@@ -84,6 +84,8 @@ Date: 2011.01.30
 
 Related code: sqrtEfficiency.c
 
+More information about efficiency prime number calculation: [Get Prime Numbers in a Range](http://www.codeproject.com/Tips/732599/Get-Prime-Numbers-in-a-Range)
+
 ==================
 
 FuzzyART Neural Network
