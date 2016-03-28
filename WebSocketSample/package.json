@@ -1,0 +1,16 @@
+{
+  "name": "websocket",
+  "version": "0.0.1",
+  "description": "A sample about web socket communication.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abner Chou",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "3.0.x",
+    "socket.io": "0.9.x"
+  }
+}
