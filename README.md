@@ -12,6 +12,8 @@ Date: 2016-Mar-27
 
 A web socket sample copied from "Programming in HTML5 with JavaScript and CSS3 -- Training Guide".
 
+Run `npm install` Then `node app.js`.
+
 ===================
 
 Simple Information Retrival Syster (IRS)
