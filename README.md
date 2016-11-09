@@ -5,6 +5,15 @@ This is my lab of consisting full of small programs.
 
 ============
 
+VPS Initial Script
+============
+
+Date: 2016-Nov-09
+
+Initialize a VPS with useful tools, like git, docker, and etc.
+
+` wget -N https://raw.githubusercontent.com/NoahDragon/CodeLab/master/bootstrap-ubuntu.sh && sudo bash bootstrap-ubuntu.sh`
+
 WebSocket Sample
 ============
 
