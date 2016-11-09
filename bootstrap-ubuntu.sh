@@ -1,5 +1,6 @@
 #!/bin/bash
 ## Run the script on brand new machine.
+##  wget -N https://raw.githubusercontent.com/NoahDragon/CodeLab/master/bootstrap-ubuntu.sh && sudo bash bootstrap-ubuntu.sh
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 export PATH
