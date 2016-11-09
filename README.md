@@ -5,14 +5,18 @@ This is my lab of consisting full of small programs.
 
 ============
 
-VPS Initial Script
+VPS Initial Script (bootstrap-ubuntu.sh)
 ============
 
 Date: 2016-Nov-09
 
 Initialize a VPS with useful tools, like git, docker, and etc.
 
-` wget -N https://raw.githubusercontent.com/NoahDragon/CodeLab/master/bootstrap-ubuntu.sh && sudo bash bootstrap-ubuntu.sh`
+Currently only work on ubuntu 14.04 (because of Docker installation).
+
+```bash
+wget -N https://raw.githubusercontent.com/NoahDragon/CodeLab/master/bootstrap-ubuntu.sh && sudo bash bootstrap-ubuntu.sh
+```
 
 WebSocket Sample
 ============
