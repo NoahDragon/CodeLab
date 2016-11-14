@@ -30,3 +30,6 @@ chmod +x /usr/local/bin/docker-compose
 ## Install Git
 apt-get -qq install git
 
+## Install Lets Encrypt
+apt-get -qq install letsencrypt 
+
