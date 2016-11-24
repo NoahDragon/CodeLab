@@ -33,3 +33,6 @@ apt-get -qq install git
 ## Install Lets Encrypt
 apt-get -qq install letsencrypt 
 
+## Install Network Related
+apt-get -qq install whois
+
