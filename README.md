@@ -5,6 +5,14 @@ This is my lab of consisting full of small programs.
 
 ============
 
+Scripts (Javascript)
+============
+
+Date: 2016-Dec-08
+
+Javascript scripts.
+
+
 VPS Initial Script (bootstrap-ubuntu.sh)
 ============
 
