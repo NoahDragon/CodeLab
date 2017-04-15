@@ -14,6 +14,7 @@ struct sample
 	double sw;
 	double sl;
 	double result[3];
+	int trueType;
 };
 
 class BackPropagation
@@ -78,7 +79,7 @@ BackPropagation::BackPropagation(int n,int l,double m)
 	{
 		for (int j=0; j<nHidden; j++)
 		{
-			IHw[i][j] = rand()/(1.0*RAND_MAX)*2-1;
+			IHw[i][j] = rand()/(1.0*RAND_MAX)*2.0-1.0;
 			//mIHw[i][j] = 0;
 		}
 	}
@@ -96,26 +97,26 @@ BackPropagation::BackPropagation(int n,int l,double m)
 	{
 		for(int j = 0; j<nHidden; j++)
 		{
-			HOw[i][j] = rand()/(1.0*RAND_MAX)*2-1; //i is output node, j is hidden node.
-			mHOw[i][j] = 0;
+			HOw[i][j] = rand()/(1.0*RAND_MAX)*2.0-1.0; //i is output node, j is hidden node.
+			mHOw[i][j] = 0.0;
 		}
 		
-		hThreshold[i] = rand()/(1.0*RAND_MAX)*2-1;
+		hThreshold[i] = rand()/(1.0*RAND_MAX)*2.0-1.0;
 	}
 	oThreshold = new double[nOutput];
 	for (int i =0; i<nOutput; i++)
 	{
-		oThreshold[i] = rand()/(1.0*RAND_MAX)*2-1;
+		oThreshold[i] = rand()/(1.0*RAND_MAX)*2.0-1.0;
 	}
 	hidden = new double[nHidden];
 	hiddenError = new double[nHidden];
-	for(int i = 0; i<nHidden; i++) hiddenError[i] = 0;
+	for(int i = 0; i<nHidden; i++) hiddenError[i] = 0.0;
 
 }
 
 double BackPropagation::sigmoid(double n)
 {
-	return (float)(1/(1+exp(-n)));
+	return (float)(1.0/(1.0+exp(-n)));
 }
 
 double BackPropagation::run(sample samp)
@@ -139,7 +140,7 @@ double BackPropagation::run(sample samp)
 		output[i] = sigmoid(sum[i]+oThreshold[i]);
 	}
 
-	return 1;
+	return 1.0;
 }
 
 void BackPropagation::train(sample samp)
@@ -158,14 +159,14 @@ void BackPropagation::train(sample samp)
 		for(j=0; j<nHidden; j++)
 			sum[i]+=HOw[i][j]*hidden[j];
 	}
-	for(int i =0; i<nOutput; i++)
+	for(i =0; i<nOutput; i++)
 	{
 		output[i] = sigmoid(sum[i]+oThreshold[i]);
 		outputDiff[i] = output[i]*(1-output[i])*(samp.result[i]-output[i]);
 		//caculating error
 		error += pow(samp.result[i]-output[i],2);
 	}
-	double sumeration = 0;
+	double sumeration = 0.0;
 	//hidden layer error
 	for(i = 0; i<nHidden; i++)
 	{
@@ -217,8 +218,8 @@ T strToNum(const string& str)  //String to number
 
 void main()
 {
-	BackPropagation bp(3,3,0.85);
-	bp.BpLearn = 0.5; // set learning rate
+	BackPropagation bp(4,3,0.85);
+	bp.BpLearn = 0.2; // set learning rate
     
     double n;
 	cout<<"Please input the stop precision:"<<endl;
@@ -271,18 +272,21 @@ void main()
 					samp[k].result[2]=(double)1.0;
 					samp[k].result[1]=(double)0.0;
 					samp[k].result[0]=(double)0.0;
+					samp[k].trueType = 2;
 				}
 				else if(strToNum<int>(s1)<=1&&strToNum<int>(s1)>0)
 				{
 					samp[k].result[2]=(double)0.0;
 					samp[k].result[1]=(double)1.0;
 					samp[k].result[0]=(double)0.0;
+					samp[k].trueType = 1;
 				}
 				else
 				{
 					samp[k].result[2]=(double)0.0;
 					samp[k].result[1]=(double)0.0;
 					samp[k].result[0]=(double)1.0;
+					samp[k].trueType = 0;
 				}
 				//samp[k].result = (double)strToNum<double>(s1)/3.0;
 				string s2(num[2]);
@@ -306,7 +310,7 @@ void main()
 		}
 		
 		inputfile.close();
-		bp.error = bp.precision + 1;
+		bp.error = bp.precision + 1.0;
 
 		ofstream outfile;
 		outfile.open("t.txt");
@@ -332,7 +336,7 @@ void main()
 			for(int i = 0; i<150; i++)
 			{
 				bp.run(samp[i]);
-				cout<< "Iris("<<samp[i].pw<<","<<samp[i].pl<<","<<samp[i].sw<<","<<samp[i].sl<<") = ("<<bp.output[0]<<","<<bp.output[1]<<","<<bp.output[2]<<") <"<<i+1<<">"<<endl;
+				cout<< "Iris("<<samp[i].trueType<<","<<samp[i].pw<<","<<samp[i].pl<<","<<samp[i].sw<<","<<samp[i].sl<<") = ("<<bp.output[0]<<","<<bp.output[1]<<","<<bp.output[2]<<") <"<<i+1<<">"<<endl;
 			}
 		}
 		else
