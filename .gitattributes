@@ -2,3 +2,4 @@ NerualNetwork/DeepLearningCoursera/SequenceModels/Emojify/data/glove.6B.50d.txt 
 NerualNetwork/DeepLearningCoursera/SequenceModels/WordVectorRepresentation/data/glove.6B.50d.txt filter=lfs diff=lfs merge=lfs -text
 *.npy filter=lfs diff=lfs merge=lfs -text
 *.h5 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
