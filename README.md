@@ -1,3 +1,5 @@
+# Moved to [GitLab](https://gitlab.com/AbnerChou/CodeLab/tree/master) due to LFS limit on Github is 1GB. May remove this repo due to the same reason.
+
 CodeLab
 =======
 
